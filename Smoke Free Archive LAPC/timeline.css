@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "opensans";
+    src: url(fonts/opensans-variablefont.ttf);
+}
+:root {
+    --clr-bg: #ffffff;
+    --clr-fg: #24283b;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    overflow-y: scroll;
+    scrollbar-color: #242424;
+    scrollbar-width: thin;
+}
+body {
+    background-color: #edebeb;
+     background-image: url('https://i.imgur.com/ginhAsE.gif');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.286);
+    font-family: "opensans", sans-serif;
+    line-height: 30px;
+    margin: auto;
+    max-width: 700px;
+    padding: 20px;
+  line-height:22px;
+   cursor: url(https://i.imgur.com/gENXYip.gif), auto;
+  scroll repeat; 
+}
+.container {
+  margin: 10px;
+  padding: 30px;
+    border: 1px solid #3d3d3d;
+    display: block;
+    width: 100%;
+      background-color: #fff;
+}
+
+.box {
+margin: auto;
+  padding: 10px;
+    border: 1px solid #3d3d3d;
+  border-radius: 10px;
+    box-shadow: 5px 5px #3d3d3d;
+    display: block;
+    width: 88%;
+}
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 40px 0;
+}
+header a {
+    flex-shrink: 0;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 15px;
+    gap: 48px;
+    padding-top: 5px;
+    justify-content: center;
+}
+.main {
+   font-size: 30px;
+    font-weight: 900;
+  display: block;
+  margin-top: 60px;
+}
+a {
+    color: #242424;
+    text-decoration: none;
+}
+a:hover {
+  color: #cb2819;
+}
+.cursor {
+  cursor: url(https://i.imgur.com/gENXYip.gif), auto;	
+}
+::selection {
+    color: #cb2819;
+    background: #fff;
+}
+/* .underline {
+border-bottom: 1px solid #77787a;
+width: 100%;
+display: block;
+  padding: 10px;
+}
